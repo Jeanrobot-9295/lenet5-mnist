@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.ipynb_checkpoints/
+
+# Conda
+*.conda
+*.env
+
+# Data (do not commit)
+data/
+**/.DS_Store
+
+# Outputs (choose what to keep)
+# If you want to keep PNGs but not weights, ignore only .pt
+outputs/*.pt
+
+# Jupyter
+*.ipynb_checkpoints
+

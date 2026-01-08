@@ -10,11 +10,37 @@ It is designed as a step-by-step learning project and runs on macOS (Apple Silic
 - Jupyter Notebook
 
 ## Project Structure
-- `notebooks/`
- - `04_one_batch_train.ipynb`: one-batch training sanity check (forward → loss → backward → step)
- - `05_train_one_epoch.ipynb`: full training loop, evaluation, and result plots
-- `outputs/`
-  - `train_loss.png`
-  - `accuracy.png`
-  - `lenet5_mnist.pt` (optional saved weights)
+```text
+.
+├── LICENSE
+├── README.md
+├── data
+│   └── MNIST
+├── notebooks
+│   ├── 01_setup_check.ipynb
+│   ├── 02_mnist_data.ipynb
+│   ├── 03_lenet5_model.ipynb
+│   ├── 04_one_batch_train.ipynb
+│   └── 05_train_one_epoch.ipynb
+├── outputs
+│   ├── accuracy.png
+│   ├── lenet5_mnist.pt
+│   └── train_loss.png
+└── requirements.txt
 
+```
+
+## Citation (BibTeX)
+
+```bibtex
+@article{lecun1998gradient,
+  title={Gradient-based learning applied to document recognition},
+  author={LeCun, Yann and Bottou, L{\'e}on and Bengio, Yoshua and Haffner, Patrick},
+  journal={Proceedings of the IEEE},
+  volume={86},
+  number={11},
+  pages={2278--2324},
+  year={1998}
+}
+
+```
